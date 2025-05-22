@@ -1,7 +1,7 @@
 # ANAC環境構築
 ## Pythonインストール
 1. リモートデスクトップで研究室PCに接続(詳細はTeamsチャネル参照)
-2. デフォルトでpythonがインストールされていないので, Edgeで最新版の[Pythonインストーラ](https://www.python.org/downloads/release/python-3133/)をダウンロード
+2. デフォルトでpythonがインストールされていないので, Edgeで最新版の[Pythonインストーラ](https://www.python.org/ftp/python/3.13.3/python-3.13.3-amd64.exe)をダウンロード
 3. ダウンロードしたインストーラを実行
 4. 管理者権限がないため`Use admin privileges when installing py.exe`のチェックを外す
 5. `Add python.exe to PATH`のチェックを入れる
