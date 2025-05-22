@@ -15,7 +15,10 @@ pyenvはpythonのバージョンを管理するためのツールである.
 ライブラリによってはpythonのバージョンが依存関係となるので, 簡単にpythonのバージョンを切り替えたい.
 windowsではpyenv-winを使う.
 1. powershellを開く
-2. `python -m pip install pyenv-win --target .pyenv`を実行
+2. 以下のコマンドを実行
+   ```
+   python -m pip install pyenv-win --target .pyenv
+   ```
 3. エクスプローラーでuserディレクトリ配下に`.pyenv`というフォルダが作成されていることを確認(無ければ表示から隠しファイルの表示にチェックを入れる)
 4. 以下のコマンドを実行
    ```powershell
@@ -33,7 +36,7 @@ windowsではpyenv-winを使う.
    pyenv install 3.11.9
    pyenv global 3.11.9
    ```
-9.  `python -V`によってバージョンが3.11.9になっていることを確認
+9. `python -V`によってバージョンが3.11.9になっていることを確認
 ## venvの設定
 venvとはpythonにデフォルトで搭載されている仮想環境構築ツールである.
 venvを用いることで, インストールしたライブラリのコンフリクトを軽減できる. 実行したいスクリプトによって求められるライブラリのバージョンが異なるため, globalな環境(システム)に直接ライブラリ等をインストールする事は好ましくない.
